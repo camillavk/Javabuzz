@@ -51,5 +51,9 @@ describe('Javabuzz', function() {
 		it('"Fizzbuzz" when a number is divisible by both', function() {
 			expect(javabuzz.says(15)).toEqual("Fizzbuzz");
 		});
+
+		it('number when not divisible by 3 or 5', function() {
+			expect(javabuzz.says(7)).toEqual(7);
+		});
 	});
 });
