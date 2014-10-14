@@ -1,0 +1,1 @@
+Rewritten the Fizzbuzz kata in Javascript as an introduction to the language.
